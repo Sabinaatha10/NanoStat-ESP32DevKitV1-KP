@@ -10,7 +10,8 @@ DOI: https://doi.org/10.1016/j.electacta.2022.140481
 Original repository:
 https://github.com/PeterJBurke/Nanostat
 
-The original NanoStat implementation uses ESP32-PICO hardware.
+The original NanoStat implementation uses ESP32-PICO hardware and provides a fully wireless potentiostat system with
+a web-based user interface.
 This work adapts the firmware and hardware to ESP32 DevKit V1.
 
 
@@ -26,7 +27,7 @@ Main objectives:
 - Test the system on real hardware
 
 
-## Hardware Modification
+## Modification
 Original board:
 ESP32-PICO
 
@@ -40,7 +41,7 @@ Changes include:
 - Custom PCB design
 - Hardware assembly and testing
 
-The modified hardware has been successfully built and tested.
+The modified firmware and hardware has been successfully built and tested.
 
 
 ## Current Status
