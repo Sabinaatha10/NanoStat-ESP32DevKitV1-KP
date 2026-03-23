@@ -15,11 +15,9 @@ This work adapts the firmware and hardware to ESP32 DevKit V1.
 
 
 ## Purpose of This Repository
-
 This repository was created for academic purposes (Kerja Praktik).
 
 Main objectives:
-
 - Study NanoStat firmware architecture
 - Modify firmware to support a different ESP32 module and hardware design
 - Port firmware from ESP32-PICO to ESP32 DevKit V1
@@ -29,7 +27,6 @@ Main objectives:
 
 
 ## Hardware Modification
-
 Original board:
 ESP32-PICO
 
@@ -37,7 +34,6 @@ Modified board:
 ESP32 DevKit V1
 
 Changes include:
-
 - Board configuration update in `platformio.ini`
 - Pin remapping in firmware
 - Minor compatibility fixes
@@ -48,7 +44,6 @@ The modified hardware has been successfully built and tested.
 
 
 ## Current Status
-
 - Firmware builds successfully  
 - Runs on ESP32 DevKit V1  
 - Web interface works  
@@ -57,7 +52,6 @@ The modified hardware has been successfully built and tested.
 
 
 ## Build Environment
-
 - PlatformIO
 - Visual Studio Code
 - ESP32 DevKit V1
@@ -65,16 +59,11 @@ The modified hardware has been successfully built and tested.
 
 
 ## Web Interface
-
-Web UI files are located in:
-
-data/
-
-These files are uploaded to ESP32 filesystem (SPIFFS / LittleFS).
+The web-based UI files are located in the `data/` directory
+and are uploaded to the ESP32 filesystem (SPIFFS/LittleFS).
 
 
 ## License
-
 This project follows the original NanoStat license (MIT License).
 
 All credit for the original design belongs to:
