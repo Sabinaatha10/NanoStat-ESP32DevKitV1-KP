@@ -13,7 +13,6 @@ https://github.com/PeterJBurke/Nanostat
 The original NanoStat implementation uses ESP32-PICO hardware.
 This work adapts the firmware and hardware to ESP32 DevKit V1.
 
----
 
 ## Purpose of This Repository
 
@@ -28,7 +27,6 @@ Main objectives:
 - Verify firmware compatibility
 - Test the system on real hardware
 
----
 
 ## Hardware Modification
 
@@ -48,7 +46,6 @@ Changes include:
 
 The modified hardware has been successfully built and tested.
 
----
 
 ## Current Status
 
@@ -58,7 +55,6 @@ The modified hardware has been successfully built and tested.
 - Hardware assembled  
 - System tested successfully  
 
----
 
 ## Build Environment
 
@@ -67,7 +63,6 @@ The modified hardware has been successfully built and tested.
 - ESP32 DevKit V1
 - Arduino framework
 
----
 
 ## Web Interface
 
@@ -77,7 +72,6 @@ data/
 
 These files are uploaded to ESP32 filesystem (SPIFFS / LittleFS).
 
----
 
 ## License
 
