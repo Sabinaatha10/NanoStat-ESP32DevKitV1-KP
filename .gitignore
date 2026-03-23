@@ -1,0 +1,10 @@
+# PlatformIO build files
+.pio/
+
+# VS Code settings
+.vscode/
+
+# WiFi credentials
+wifi_credentials.h
+
+node_modules/
